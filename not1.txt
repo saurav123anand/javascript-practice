@@ -1,0 +1,15 @@
+// how js works 
+
+// there ia a thing called Execution context and it has two components 
+
+// 1 . Memory  component (also called as variable environments)
+--> this is the place where all the variables and functions are stored as the key value pair 
+// ex--> a:10
+// 2. code component (also known as thread of execution)--> this is the place where code is executed one line at a time.
+
+--> js is a synchronous single threaded language.
+--> synchronous single threaded means js can execute only a single command at a time in a specific order.
+
+// WHAT HAPPENS WHEN YOU RUN JS CODE
+
+--> Everything in js happend inside and execution context 

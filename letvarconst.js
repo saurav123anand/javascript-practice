@@ -1,7 +1,2 @@
-var createHelloWorld = function() {
-    return function(...args) {
-        return "Hello World"
-    }
-};
-const f=createHelloWorld();
-console.log(f())
+// console.log(a) // error reference error 
+// let a=6;

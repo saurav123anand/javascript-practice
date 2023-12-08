@@ -12,10 +12,10 @@ function myDebounce(callback,delay){
         if(timer){
             clearTimeout(timer);
         }
-        setTimeout(() => {
+        timer=setTimeout(() => {
             callback(i++)
         }, delay);
     }
 }
 
-const betterFunction=myDebounce(getData,1000)
+const betterFunction=myDebounce(getData,5000)

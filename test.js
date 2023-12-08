@@ -1,10 +1,8 @@
-function outer(){
-    var a=45;
-    function inner(){
-        console.log(a)
-    }
-    let a=10;
-    return inner;
-    
+let obj1={
+    id:1,
+    name:"scooby"
 }
-outer()()
+let obj2=obj1;
+obj2.name="scooby2";
+console.log(obj1);
+console.log(obj2);

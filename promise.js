@@ -118,6 +118,27 @@ function createOrder(cart){
     return pr;
 }
 
+const arr=[-1,-2,-4,55,6,7,-5];
+arr.sort()
+console.log(arr)
+
+function test(){
+    return new Promise(function(resolve,reject){
+        let n=6;
+        if(n==5){
+            resolve("hello");
+        }
+        else{
+            reject("failure....")
+        }
+        
+    })
+}
+test().then(data=>{
+    console.log(data)
+}).catch(err=>{
+    console.log(err)
+})
 
 
 

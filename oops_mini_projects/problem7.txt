@@ -1,0 +1,52 @@
+Problem statement
+You are tasked with developing a social media platform where users can create accounts, make posts, and interact with those posts. Your goal is to implement the necessary classes and functionalities to fulfil the requirements of the platform.
+
+
+
+
+Objective:
+
+Upper Class:
+
+1- The User class should have the following private properties.
+
+- name (string)
+- email(string)
+- password(String)
+- posts (an array of posts)
+2- It should have a constructor method that accepts name, email, and password as parameters and initializes them accordingly, and it should also initialize posts with an empty array.
+
+3- Implement getters and setters for name, email, and password properties.
+
+4- The User class should have the following methods
+
+- addPost: It takes a post object and appends it to the posts array.
+- deletePost: It takes a post object and removes it from the posts array.
+- displayPosts: It should console the title of all posts present in the posts array.
+
+Post Class:
+
+1- The Post class should inherit from the User class.
+
+2- It should have the following private properties
+
+- title(String)</br>
+- content (string)</br>
+- date (String)</br>
+- likeCount (number)
+3- The constructor method should accept the owner's name, email, password, title, content, and date as parameters and initialize the properties accordingly. It should initialize the likeCount with 0.
+
+4- Implement getters and setters for title, content, date and only getter method for likeCount properties.
+
+5- The Post class should have the following method
+
+- addLike : It should increment the likeCount of the post.
+
+-displayDetails: It should print the post'd details inheriting from the User class in key-value pair which includes the owner's name, title, content, date, and likeCount.
+
+Note:-
+The name of the getter setter should be the name of the property it is accessing or modifying.
+
+For eg, The name of the getter and setter for the property name should be "name".
+
+Please refer to the scaffold for the expected output. 

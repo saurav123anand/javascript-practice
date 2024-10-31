@@ -1,0 +1,84 @@
+Problem statement
+Suppose you are building a music streaming application that allows users to listen to different types of music.
+
+You want to create a class hierarchy to represent the different types of music available for streaming.
+
+
+
+
+Objective:
+
+Create a class hierarchy with the following classes:
+
+1- Media (base class)
+
+a- Song (inherits from Media)
+-PopSong (inherits from Song)
+-RockSong (inherits from Song)
+
+b- Podcast (inherits from Media)
+-NewsPodcast (inherits from Podcast)
+-ComedyPodcast (inherits from Podcast)
+
+c- The Media class should have the following properties:
+-title (string)
+-artist (string)
+-duration</b> (number)
+
+d- The Media class should also have the following methods:
+- getTitle() - returns the title of the media.
+- getArtist() - returns the artist of the media.
+- getDuration() - returns the duration of the media.
+2- The Song class should have the following additional properties:
+
+- album (string)
+- genre (string)
+3- The Song class should also have the following additional methods:
+
+- getAlbum() - returns the album of the song
+- getGenre() - returns the genre of the song
+4- The Podcast class should have the following additional properties:
+
+- host (string)
+- topic (string)
+5- The Podcast class should also have the following additional methods:
+
+- getHost() - returns the host of the podcast.
+- getTopic() - returns the topic of the podcast.
+6- The PopSong class should have the following additional properties:
+
+ - danceability (number)
+ - energy (number)
+7- The PopSong class should also have the following additional methods:
+
+- getDanceability() - returns the danceability of the pop song.
+- getEnergy() - returns the energy of the pop song.
+8- The RockSong class should have the following additional properties:
+
+- distortion (number).
+- tempo (number).
+9- The RockSong class should also have the following additional methods:
+
+- getDistortion()- returns the distortion of the rock song.
+- getTempo() - returns the tempo of the rock song.
+10- The NewsPodcast class should have the following additional properties:
+
+- source (string).
+11- The NewsPodcast class should also have the following additional methods:
+
+- getSource() - returns the source of the news podcast.
+- getDuration() - overrides the getDuration() method from the Media class and returns the duration of the news podcast.
+12- The ComedyPodcast class should have the following additional properties:
+
+- comedian (string)
+- rating (number)
+13- The ComedyPodcast class should also have the following additional methods:
+
+- getComedian() - returns the comedian of the comedy podcast</br>
+- getRating() - returns the rating of the comedy podcast</br>
+
+
+
+Note:
+- Each object should be able to access its parent properties and methods.
+- Your code will be evaluated on this basis only.
